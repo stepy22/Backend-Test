@@ -1,0 +1,10 @@
+{
+    "name": "vukas/backend-test",
+    "description": "Test for quantox tehnology",
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "App\\":"app"
+        }
+    }
+}
