@@ -16,7 +16,7 @@ class SetValidation
     {
         $this->key=$key;
         $this->value=$value;
-        $this->set();
+        $this->call();
     }
 
 
@@ -43,7 +43,7 @@ class SetValidation
         }
     }
 
-    protected function set(){
+    protected function call(){
         $this->ValidateEmail();
         $this->ValidateVarchar();
         $this->ValidateNum();

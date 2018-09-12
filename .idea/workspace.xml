@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03847427-8b3d-42c8-ae31-7d27e552adda" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/SetValidation.php" afterPath="$PROJECT_DIR$/app/Http/SetValidation.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Validation.php" afterPath="$PROJECT_DIR$/app/Http/Validation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.php" afterPath="$PROJECT_DIR$/register.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Model.php" afterPath="$PROJECT_DIR$/app/Model.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -89,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Validation.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Validation.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Validation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="51">
+              <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -112,21 +111,22 @@
       <file leaf-file-name="SetValidation.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/SetValidation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+            <state relative-caret-position="-168">
+              <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Model.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Model.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="187">
+              <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
-                <marker date="1536775600692" expanded="true" signature="759:773" ph="SELECT * FRO... ${Self::$table}" />
+                <element signature="e#104#115#0#PHP" expanded="true" />
+                <marker date="1536778084610" expanded="true" signature="761:775" ph="SELECT * FRO... ${Self::$table}" />
               </folding>
             </state>
           </provider>
@@ -196,11 +196,11 @@
         <option value="$PROJECT_DIR$/app/Http.php" />
         <option value="$PROJECT_DIR$/app/ValidationTraits.php" />
         <option value="$PROJECT_DIR$/app/Models/users.php" />
-        <option value="$PROJECT_DIR$/app/Model.php" />
         <option value="$PROJECT_DIR$/app/Http/ValidationTraits.php" />
-        <option value="$PROJECT_DIR$/app/Http/SetValidation.php" />
         <option value="$PROJECT_DIR$/register.php" />
+        <option value="$PROJECT_DIR$/app/Http/SetValidation.php" />
         <option value="$PROJECT_DIR$/app/Http/Validation.php" />
+        <option value="$PROJECT_DIR$/app/Model.php" />
       </list>
     </option>
   </component>
@@ -307,12 +307,12 @@
       <option name="presentableId" value="Default" />
       <updated>1536394026819</updated>
       <workItem from="1536394029658" duration="18406000" />
-      <workItem from="1536771242951" duration="6676000" />
+      <workItem from="1536771242951" duration="6817000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25082000" />
+    <option name="totallyTimeSpent" value="25223000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1932" height="1047" extended-state="0" />
@@ -610,14 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/DB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/users.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -625,25 +617,6 @@
           <folding>
             <element signature="e#111#125#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1536775600692" expanded="true" signature="759:773" ph="SELECT * FRO... ${Self::$table}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/SetValidation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -709,11 +682,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/SetValidation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Validation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="51">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="true" />
+            <element signature="e#104#115#0#PHP" expanded="true" />
+            <marker date="1536778084610" expanded="true" signature="761:775" ph="SELECT * FRO... ${Self::$table}" />
+          </folding>
         </state>
       </provider>
     </entry>

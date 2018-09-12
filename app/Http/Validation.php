@@ -1,7 +1,7 @@
 <?php
 namespace App\Http;
 use App\Http\SetValidation;
-class Validation extends SetValidation {
+trait Validation {
 
     public $errors;
 
@@ -17,7 +17,7 @@ class Validation extends SetValidation {
     public function callValidation($value,$key)
     {
         $SetValidation=new SetValidation($value,$key);
-        $this->errors[]=$SetValidation->errors;
+        $this->errors[]=$SetValidation->getErrors();
         return $SetValidation;
 
     }
