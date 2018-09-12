@@ -20,7 +20,9 @@ require ('Includes/NavBar.php');
 
 <?php $user=new \App\Models\Users();
 
- var_dump($user->validate(['email','dada']));
+ print_r($user->validate(['email'=>'dasasd',
+                          'varch'=>'sada',
+                          'num'=>'2314dsa']));
 
 ?>
 
