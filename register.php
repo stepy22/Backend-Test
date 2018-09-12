@@ -18,6 +18,12 @@ require ('Includes/NavBar.php');
     unset($_SESSION['succes']); //success unset
 } //end if ?>
 
+<?php $user=new \App\Models\Users();
+
+ var_dump($user->validate(['email','dada']));
+
+?>
+
 
 
 <div class="register">

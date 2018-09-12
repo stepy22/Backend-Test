@@ -8,7 +8,8 @@
 namespace app;
 use App\DB;
 use PDO;
-abstract class Model
+use App\Http\Validation;
+abstract class Model extends Validation
 {
     public $con;
     protected static $table;
